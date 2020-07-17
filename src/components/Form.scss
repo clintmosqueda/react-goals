@@ -1,0 +1,65 @@
+.form {
+  position: relative;
+}
+
+.form-block {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 666px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.form-content {
+  width: 460px;
+}
+
+.form-login {
+
+}
+
+.form-holder {
+  margin-bottom: 20px;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+  letter-spacing: 0.09em;
+}
+
+.form-label {
+  display: block;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5px;
+  letter-spacing: 0.11em;
+}
+
+.form-input {
+  border: 1px solid #101010;
+  height: 60px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+}
+
+.form-copy {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.11em;
+  text-align: center;
+  margin-top: 38px;
+
+  span {
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

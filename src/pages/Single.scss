@@ -1,0 +1,35 @@
+.single {}
+
+.single-header {
+  padding: 120px 0 0;
+}
+
+.single-time {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin-bottom: 33px;
+  letter-spacing: 0.2em;
+}
+
+.single-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 47px;
+  letter-spacing: 0.1em;
+}
+
+.single-image {
+  height: 540px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.single-content {
+  p {
+    font-size: 18px;
+    margin-bottom: 10px
+  }
+}

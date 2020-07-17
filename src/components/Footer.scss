@@ -1,0 +1,32 @@
+.footer {
+ background-color: #292929;
+ color: #fff;
+}
+
+.footer-content {
+  padding: 78px 0 66px;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.footer-copy {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.98;
+}
+
+.footer-copyright {
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  padding: 35px 0;
+  
+  small {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+  }
+}
