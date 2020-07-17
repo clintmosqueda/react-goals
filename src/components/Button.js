@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Button.scss'
+import '../assets/scss/Button.scss'
 
 const Button = ({text}) => {
  return (

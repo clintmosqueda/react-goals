@@ -2,7 +2,7 @@ import React from 'react'
 
 import { useHistory } from "react-router-dom";
 
-import './Breadcrumbs.scss'
+import '../assets/scss/Breadcrumbs.scss'
 
 const Breadcrumbs = ({title}) => {
 

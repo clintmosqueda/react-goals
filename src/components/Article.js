@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Article.scss'
+import '../assets/scss/Article.scss'
 
 const Article = ({image, time, title}) => {
   return (

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './Hero.scss'
+import '../assets/scss/Hero.scss'
 
 import Mv from '../assets/images/mv.jpg'
 

@@ -5,7 +5,7 @@ import Article from './Article'
 import Button from './Button'
 
 import dummy from '../assets/images/dummy-image.jpg'
-import './Archive.scss'
+import '../assets/scss/Archive.scss'
 
 const Archive = () => {
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './Form.scss'
+import '../assets/scss/Form.scss'
 
 import Button from './Button'
 

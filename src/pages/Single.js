@@ -2,7 +2,7 @@ import React from 'react'
 
 import Breadcrumbs from '../components/Breadcrumbs'
 
-import './Single.scss';
+import '../assets/scss/Single.scss';
 
 import Mv from '../assets/images/mv.jpg'
 
