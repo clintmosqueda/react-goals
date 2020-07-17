@@ -1,9 +1,96 @@
+.hero {
+  position: relative;
+  height: 666px;
+}
+
+.hero-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+
+  &.is-active {
+    opacity: 1;
+  }
+}
+
 .hero-image {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero-block {
+.hero-content {
   height: 666px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.hero-heading {
+  font-size: 60px;
+  color: #fff;
+  background-color: #000;
+  width: 560px;
+}
+
+.hero-time {
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  margin-top: 24px;
+}
+
+.hero-dots {
+  position: absolute;
+  bottom: 51px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-dot {
+  display: inline-block;
+  background-color: #707070;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 5px;
+
+  &.is-active {
+    background-color: #000;
+  }
+}
+
+.hero-arrows {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 0 30px;
+}
+
+.hero-arrow {
+  appearance: none;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
 }
